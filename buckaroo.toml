@@ -1,1 +1,5 @@
 targets = [ "//:variant" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-type_index"
+version = "branch=master"
