@@ -1,4 +1,4 @@
-manifest = "b61739bd2453890d629450fe594b6f8a36f8f02185e5f0281b5568f3c357579b"
+manifest = "0f70c930284e0f594b726714163f352ac783ab6add2de5f89e17a57dc4d85839"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
@@ -7,6 +7,10 @@ target = "//:config"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-move"
 target = "//:move"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+target = "//:mpl"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-type_index"
@@ -31,6 +35,14 @@ revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
 [lock."github.com/buckaroo-pm/boost-move"]
 versions = [ "branch=master" ]
 revision = "183c4c120078cc80bdc9fd4089d911aecd922aac"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "branch=master" ]
+revision = "4c91f620f270414ceb5c3dbf3419a4f6ffe38c1e"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "branch=master" ]
+revision = "a70772bbd315eb597c3f1e359af742dde46a6f37"
 
 [lock."github.com/buckaroo-pm/boost-static_assert"]
 versions = [ "branch=master" ]
