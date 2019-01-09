@@ -6,8 +6,8 @@ target = "//:type-index"
 
 [lock."github.com/buckaroo-pm/boost-container_hash"]
 versions = [ "branch=master" ]
-revision = "9446eb516e717ae9c80bc89768a8d1160bcf6887"
+revision = "ddd9a887f1f0253ded4455d455b3c54228067b74"
 
 [lock."github.com/buckaroo-pm/boost-type_index"]
 versions = [ "branch=master" ]
-revision = "20fb7a55b42537123e4c0e617b94145564f05e59"
+revision = "562999d5a72c5f6641cd09c7a48715bbc6564c95"
