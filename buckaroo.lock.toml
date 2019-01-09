@@ -1,8 +1,16 @@
-manifest = "ad811491b6235f4af26b5b1dd2538b44d58da2443f1bb8fc3c24a6fdebe50763"
+manifest = "882a04d4c899f78856e533a630ccbe5f361a7790c858f213e2b8e1504234722c"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-type_index"
 target = "//:type-index"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "branch=master" ]
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
 
 [lock."github.com/buckaroo-pm/boost-container_hash"]
 versions = [ "branch=master" ]
